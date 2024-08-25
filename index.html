@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOKEYS</title>
+    <!-- DAYSI UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope{
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            }
+    </style>
+    
+      <!-- GOOGLE FONT -->
+       <!-- font awsome -->
+       <script src="https://kit.fontawesome.com/0301225de3.js" crossorigin="anonymous"></script>
+       <!-- font awsome -->
+        <!-- configuration  -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'dark-1': '#131318',
+                    'dark-2': '#424247',
+                    'red-1': '#FF4240',
+                  }
+                }
+              }
+            }
+          </script>
+</head>
+<body class="manrope">
+    <header class="container mx-auto p-4">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content text-dark-2 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                  <li><a class="text-red-1" href="#">Home</a></li>
+                  <li><a class=" " href="#">About</a></li>
+                  <li><a class=" " href="#">Pages</a></li>
+                  <li><a class=" " href="#">Blog</a></li>
+                  <li><a class=" " href="#">Cont </a></li>
+                  
+                </ul>
+              </div>
+              <a class="text-4xl font-bold">Hockey<span class="text-red-1">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-1" href="#">Home</a></li>
+                  <li><a class=" " href="#">About</a></li>
+                  <li><a class=" " href="#">Pages</a></li>
+                  <li><a class=" " href="#">Blog</a></li>
+                  <li><a class=" " href="#">Cont </a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-4">
+                <a class="hidden md:block text-dark-2 text-xl" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#" class="rounded-xl px-6 py-4 bg-red-1"><span class="text-xl font-semibold text-white">Get Ticket</span></a>
+            </div>
+          </div>
+    </header>
+</body>
+</html>
